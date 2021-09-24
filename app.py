@@ -7,7 +7,7 @@ def hello_world():
   return 'hello world'
 
 @app.route('/user/<user>')
-def show_path(user):
+def show_user(user):
   return f"welcome to flask {user}"
 
 if __name__ == '__main__':
